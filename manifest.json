@@ -1,0 +1,6 @@
+{
+    "name": "Hello Chrome Plugin",
+    "version": "0.1",
+    "description": "Building an Extension",
+    "manifest_version": 2
+  }
