@@ -1,4 +1,4 @@
 # Hello Chrome Plugin
 
-## TODO
-TBA
+## Getting started
+TODO
