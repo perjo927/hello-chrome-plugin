@@ -2,3 +2,6 @@
 
 ## Getting started
 TODO
+
+## Author
+Per Jonsson
