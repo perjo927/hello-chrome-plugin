@@ -1,7 +1,7 @@
 # Hello Chrome Plugin
 
 ## Getting started
-TBA
+TODO
 
 ## Author
 Per Jonsson
