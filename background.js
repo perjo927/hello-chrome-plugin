@@ -1,16 +1,16 @@
 const colors = {
-  one: '#aaa',
-  two: '#bbb',
-  three: '#ccc',
-  four: '#ddd',
-  five: '#eee',
-  six: '#fff',
-  seven: '#000',
-  eight: '#111',
-  nine: '#222',
-  ten: '#333',
-  eleven: '#444',
-  twelve: '#555'  
+  one: '#aaaaaa',
+  two: '#bbbbbb',
+  three: '#cccccc',
+  four: '#dddddd',
+  five: '#eeeeee',
+  six: '#ffffff',
+  seven: '#000000',
+  eight: '#111111',
+  nine: '#222222',
+  ten: '#333333',
+  eleven: '#444444',
+  twelve: '#555555'  
 };
 
 chrome.runtime.onInstalled.addListener(() => {
