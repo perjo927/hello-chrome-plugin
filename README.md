@@ -1,5 +1,7 @@
 # Hello Chrome Plugin
 
+This extension changes colors.
+
 ## Installation
 
 1. Open the Extension Management page by navigating to chrome://extensions.

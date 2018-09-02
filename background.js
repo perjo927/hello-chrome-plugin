@@ -1,6 +1,21 @@
+const colors = {
+  one: '#aaa',
+  two: '#bbb',
+  three: '#ccc',
+  four: '#ddd',
+  five: '#eee',
+  six: '#fff',
+  seven: '#000',
+  eight: '#111',
+  nine: '#222',
+  ten: '#333',
+  eleven: '#444',
+  twelve: '#555'  
+};
+
 chrome.runtime.onInstalled.addListener(() => {
-  chrome.storage.sync.set({color: '#3aa757'}, () => {
-    console.log("The color is green.");
+  chrome.storage.sync.set({colors}, () => {
+    console.log("The colors have been defined.", colors);
   });
 });
 
