@@ -1,7 +1,7 @@
 {
     "name": "Hello Chrome Plugin",
     "version": "0.1",
-    "description": "Building an Extension",
+    "description": "Hello Extensions!",
     "background": {
         "scripts": ["background.js"],
         "persistent": false
