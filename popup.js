@@ -9,8 +9,13 @@ changeColor.onclick = element => {
   const color = element.target.value;
 
   chrome.tabs.query({active: true, currentWindow: true}, tabs => {
+    const [firstTab] = tabs;
     chrome.tabs.executeScript(
-      tabs[0].id,
-      {code: `document.body.style.backgroundColor = "${color}";`});
+      firstTab.id,
+      {
+        code: `
+          document.body.style.backgroundColor = "${color}";
+        `
+      });
   });
 };
